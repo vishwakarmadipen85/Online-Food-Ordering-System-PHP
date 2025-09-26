@@ -1,0 +1,10 @@
+DirectoryIndex index.php index.html login.php
+Options -Indexes
+
+# If you later add pretty URLs, keep this block ready
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^ index.php [L]
+
+

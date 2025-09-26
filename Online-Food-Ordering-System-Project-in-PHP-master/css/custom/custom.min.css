@@ -1,0 +1,33 @@
+:root {
+    --brand-primary: #2e7d32; /* green darken-3 */
+    --brand-secondary: #ff6f00; /* amber darken-4 */
+  }
+  
+  /* Typography */
+  html, body { font-family: "Roboto", Arial, sans-serif; }
+  h1, h2, h3, h4, h5, h6 { font-weight: 500; margin: 0 0 0.6rem; }
+  
+  /* Buttons */
+  .btn, .btn-large {
+    background-color: var(--brand-primary) !important;
+  }
+  .btn:hover, .btn-large:hover {
+    background-color: #1b5e20 !important;
+  }
+  
+  /* Navbar */
+  nav { background-color: var(--brand-primary) !important; }
+  
+  /* Cards */
+  .card .card-title { font-weight: 500; }
+  
+  /* Utilities */
+  .text-muted { color: rgba(0,0,0,0.54) !important; }
+  .text-primary { color: var(--brand-primary) !important; }
+  .text-secondary { color: var(--brand-secondary) !important; }
+  .mt-1 { margin-top: .5rem !important; }
+  .mt-2 { margin-top: 1rem !important; }
+  .mb-1 { margin-bottom: .5rem !important; }
+  .mb-2 { margin-bottom: 1rem !important; }
+  .p-1 { padding: .5rem !important; }
+  .p-2 { padding: 1rem !important; }
